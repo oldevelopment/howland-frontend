@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="application-name" content="&nbsp;"/>
+
+
+    <title>Howland</title>
+
+    
+    <link rel="stylesheet" href="asset/css/style.css?v=1.0.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+  </head>
+  <body>
+
+    <!-- passcode -->
+    <header class="accesscode">
+      <img src="asset/img/Screen Shot 2022-11-15 at 9.18.16 AM.jpg" class="cover">
+
+      <div class="content-bottom">
+        <form action="">
+          <div class="vcode flex" id="vcode">
+            <input type="phone" class="vcode-input" maxlength="1" id="vcode1">
+            <input type="phone" class="vcode-input" maxlength="1">
+            <input type="phone" class="vcode-input" maxlength="1">
+            <input type="phone" class="vcode-input" maxlength="1">
+            <input type="phone" class="vcode-input" maxlength="1">
+            <input type="phone" class="vcode-input" maxlength="1">
+          </div>
+        </form>
+        <p>
+          Please Enter your access code in <br>
+          the space above.
+        </p>
+        <div class="shipwrap">
+          <img src="asset/img/Howland_Final Logos_Integrity-Blue.png">
+        </div>
+      </div>
+
+      <a href="" class="attr-bot left_" target="_blank">
+        AND<br>
+        ASSOCIATES
+      </a>
+      <a href="" class="attr-bot right_" target="_blank">
+        N27° 38’27” <br>
+        W82° 44’32”
+      </a>
+    </header>
+
+    <!-- greeting -->
+    <section class="bigtext">
+      <h1 class="title">
+        Howland and
+        associates is a
+        registered and
+        independent
+        financial advisor
+        in st. Petersburg,
+        Florida.
+      </h1>
+    </section>
+
+    <footer>
+      <div class="footermenu">
+        <img src="asset/img/logo-white.png" class="footerlogo">
+      </div>
+
+      <div class="footerinfo flex">
+        <div class="fi_">
+          <span class="small">ADDRESS</span>
+          <p>
+            <a href="">
+              260 1st Avenue S, Suite 200 <br>
+              St. Petersburg, FL 33701
+            </a>
+          </p>
+        </div>
+        <div class="fi_">
+          <span class="small">CONTACT</span>
+          <p>
+            <a href="">hello@investhowland.com</a>
+            <a href="">813. 333. 2900</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="content-bottom">
+        <p>
+          ©2023 Howland and Associates, LLC<br>
+          All rights reserved. 
+        </p>
+        <div class="shipwrap">
+          <img src="asset/img/Howland_Final Logos_Integrity-Blue.png">
+        </div>
+      </div>
+
+      <a href="" class="attr-bot left_" target="_blank">
+        AND<br>
+        ASSOCIATES
+      </a>
+      <a href="" class="attr-bot right_" target="_blank">
+        N27° 38’27” <br>
+        W82° 44’32”
+      </a>
+    </footer>
+
+
+    <!-- loading -->
+    <div class="loading flex c-flex">
+      <div id="wrapodo">
+        <div id="odometer" class="odometer">1992</div>
+      </div>
+
+      <div class="content-bottom">
+        <p class="f-atlantic">Fair winds</p>
+        <div class="shipwrap">
+          <img src="asset/img/Howland_Final Logos_Integrity-Blue.png">
+        </div>
+      </div>
+    </div>
+
+    <script>
+      
+      setTimeout(function(){
+        $('#wrapodo').addClass('active');
+      }, 1000);
+      setTimeout(function(){
+          odometer.innerHTML = new Date().getFullYear();
+      }, 2000);
+
+      $(function() {
+        setTimeout(function(){
+          $('#wrapodo').addClass('done');
+        }, 4500);
+        setTimeout(function(){
+          $('.loading').addClass('hide_');
+        }, 5300);
+      });
+
+    </script>
+    <script src="asset/js/script.js?v=1.0.0"></script>
+  </body>
+</html>
